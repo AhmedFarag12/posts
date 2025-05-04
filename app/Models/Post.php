@@ -19,7 +19,6 @@ class Post extends Model
         return [
             'title' => 'required|string',
             'content' => 'required|string|max:255',
-            //'user_id' => 'required|exists:users,id',
         ];
     }
 
